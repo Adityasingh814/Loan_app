@@ -1,5 +1,6 @@
 package com.P2P_microloan.loan.app.config;
 
+
 import com.P2P_microloan.loan.app.service.JwtService;
 import com.P2P_microloan.loan.app.service.impl.MyUserDetailsService;
 import jakarta.servlet.FilterChain;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;

@@ -1,8 +1,7 @@
 package com.P2P_microloan.loan.app.controller;
 
-import com.P2P_microloan.loan.app.DTO.RegistrationRequest;
-import com.P2P_microloan.loan.app.model.Loan;
 import com.P2P_microloan.loan.app.model.User;
+//import com.P2P_microloan.loan.app.service.JwtService;
 import com.P2P_microloan.loan.app.service.JwtService;
 import com.P2P_microloan.loan.app.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +9,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 public class UserController {
